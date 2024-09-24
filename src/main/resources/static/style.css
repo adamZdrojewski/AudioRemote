@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* Vars */
+:root {
+    --background-color: #070707;
+    --primary-color: #628173;
+}
+
+/* General */
+body {
+    background-color: var(--background-color);
+    color: snow;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Audio Container */
+.audioContainer {
+    min-width: 396px;
+    max-width: 396px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#stopAudioBtn {
+    width: 370px;
+    height: 85px;
+}
+
+.audio {
+    background-color: var(--primary-color);
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio h3 {
+    margin: 0;
+}
